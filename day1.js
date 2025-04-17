@@ -1,4 +1,3 @@
-"use strict";
 let a = "hello";
 let b = 5;
 let c = true;
@@ -20,5 +19,6 @@ let r = [["hello", 5], ["world", 10]];
 let s = ["hello"]; // ?는 생략가능하므로 생략
 let t = ["hello", 1, 2, 3]; // ...(rest) 이므로 배열로 들어감
 let u = ["hello"]; // rest element with empty array
-u.push('world'); // string
+console.log(u);
+u = ['hello-world', 1, 2, 3, 4, 5];
 console.log(u);
